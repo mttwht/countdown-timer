@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Countdown</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+	<form>
+		<label for="end-time">End time</label>
+		<input type="date" id="end-date" name="end-date">
+		<input type="time" id="end-time" name="end-time">
+
+		<label for="description">Description</label>
+		<input type="text" id="description" name="description">
+	</form>
+
+	<div id="timer">
+		<div id="days-container">
+			<span id="days-count"></span>
+			<label for="days-count">days</label>
+		</div>
+		
+		<div id="hours-container">
+			<span id="hours-count"></span>
+			<label for="hours-count">hours</label>
+		</div>
+		
+		<div id="minutes-container">
+			<span id="minutes-count"></span>
+			<label for="minutes-count">minutes</label>
+		</div>
+		
+		<div id="seconds-container">
+			<span id="seconds-count"></span>
+			<label for="seconds-count">seconds</label>
+		</div>
+		
+		<div id="milliseconds-container">
+			<span id="milliseconds-count"></span>
+			<label for="milliseconds-count">milliseconds</label>
+		</div>
+	</div>
+
+	<script src="js/scripts.js"></script>
+  </body>
+</html>
